@@ -22,7 +22,7 @@ var Container map[string]interface{} = make(map[string]interface{})
 func main() {
 	Container["Hong"] = "hong"
 	Container["Lan"] = "lan"
-
+	/*example:*/
 	// cat1 := cat{Eye{&Cell{"h", "z"}}, Cell{"x", "y"}}
 	cat1 := cat{}
 	Equip(&cat1)
